@@ -1,2 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,800;1,400&display=swap');
 
+body{
+  display: flex;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+  background-image: linear-gradient(to right top, #eeaeca, #deb0d9, #c8b3e4, #afb7ea, #94bbe9);
+}
+
+/* styles.css */
+.container {
+  width: 1200px;
+  min-height: 1250px;
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-position: center; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-info-container{
+  background-color: rgb(0, 0, 0,0.5);
+  color: white;
+  width: 80%;
+  height: 560px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.frame{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-date{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 32px;
+}
+
+.weather-location{
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.temperature-container{
+  /* background-color: rgb(51, 53, 53); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.weather-icon{
+  width: 256px;
+  height: 256px;
+}
+
+.today-weather{
+  font-size: 48px;
+}
+
+.today-degree{
+  font-size: 48px;
+  margin-top: -40px;
+}
+
+.weather-day{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: -60px;
+  margin-right: 30px;
+}
+
+.temperature-info-container{
+  /* background-color: rgb(51, 53, 53); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 105%;
+}
+
+.abc{
+  width: 50%;
+  padding-left: 70px;
+  font-size: 32px;
+}
+
+.weather-condition-title{
+  font-size: 24px;
+  margin-bottom: -20px;
+  margin-right: 10px;
+}
+
+.weather-condition{
+  font-size: 18px;
+}
+
+.weather-desc-container-all{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-right: 20px;
+}
+
+.weather-desc-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.weather-desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-week-container{
+  border-radius: 20px;
+  width: 80%;
+  margin-top: 30px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.nextday-weather{
+  background-color: rgb(0, 0, 0,0.5);
+  width: 20%;
+  height: 310px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nextday-weather-icon{
+  width: 128px;
+  height: 128px;
+}
+
+.nextday-title{
+  font-size: 32px;
+  color: white;
+
+}
+
+/* .nextday-degree{
+  font-size: 32px;
+  color: white;
+} */
 
