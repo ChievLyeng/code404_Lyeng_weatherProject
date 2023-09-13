@@ -1,13 +1,13 @@
 import { useEffect,useState } from 'react';
-import clearsky from '../img/clearsky.svg';
-// import brokenclouds from '../brokenclouds.svg';
-import fewclouds from '../img/fewclouds.svg';
-import mist from '../img/mist.svg';
-import rain from '../img/rain.svg';
-// import scatteredclouds from '../scatteredclouds.svg';
-// import showerain from '../showerain.svg';
-import snow from '../img/snow.svg';
-import thunderstrom from '../img/thunderstorm.svg';
+import clearsky from '../components/img/clearsky.svg';
+import fewclouds from '../components/img/fewclouds.svg';
+import mist from '../components/img/mist.svg';
+import rain from '../components/img/rain.svg';
+import snow from '../components/img/snow.svg';
+import thunderstrom from '../components/img/thunderstorm.svg';
+// import brokenclouds from '../components/img/brokenclouds.svg';
+// import scatteredclouds from '../components/img/scatteredclouds.svg';
+// import showerain from '../components/img/showerain.svg';
 
 
 const iconMap = {
@@ -91,7 +91,6 @@ export const WeatherShow = ({weather}) => {
                 </div>
                 </div>
                 </div>  
-            </div>
             </div>
         </div>
       );
