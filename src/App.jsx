@@ -13,7 +13,7 @@ function App() {
       const currLocation = await axios.get(url);
       setCurrentLocation(currLocation.data.city);
 
-      const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=Phnom Penh&appid=2f43c83c40b4e2ddc001d7b04ec46eab&units=metric`)
+      const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${currLocation.data.city}&appid=2f43c83c40b4e2ddc001d7b04ec46eab&units=metric`)
       setWeather(response.data);
     
     } catch (error) {
