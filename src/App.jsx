@@ -2,6 +2,7 @@ import { useEffect,useState } from 'react';
 import axios from 'axios';
 import './App.css'
 import { WeatherShow } from './components/WeatherShow';
+import { WeatherFetching } from './components/WeatherFetching';
 
 function App() {
   
