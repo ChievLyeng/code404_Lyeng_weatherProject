@@ -1,7 +1,6 @@
 import { useEffect,useState } from 'react';
 import axios from 'axios';
 import './App.css'
-import { WeatherShow } from './components/WeatherShow';
 import { WeatherFetching } from './components/WeatherFetching';
 
 function App() {
@@ -52,13 +51,13 @@ return (
   <>
     <div>
         {!loading ? (
-     <div className='container'>
+     <div >
      <p className='loading'>App is Loading...</p>
      <img className='loading-icon' src={loadingicon} alt="loading-icon" />
      </div>
     ) : (
       weather && (
-        <div className='container' >
+        <div>
           <WeatherFetching weather={weather} ForecastWeather={ForecastWeather} />
         </div>
       )

@@ -7,6 +7,7 @@ body{
   background-image: url('../src/img/background.jpg');
   background-size: cover;
   background-position: center; 
+  background-repeat: no-repeat;
   /* background-image: linear-gradient(to right top, #eeaeca, #deb0d9, #c8b3e4, #afb7ea, #94bbe9); */
 } 
 
