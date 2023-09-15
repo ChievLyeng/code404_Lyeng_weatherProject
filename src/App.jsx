@@ -20,20 +20,17 @@ function App() {
         const currLocation = await axios.get(url);
         setCurrentLocation(currLocation.data.city); 
         
-        
         //currentweather Api
         const response = await axios.get(
           `https://api.openweathermap.org/data/2.5/weather?q=${currLocation.data.city}&appid=2f43c83c40b4e2ddc001d7b04ec46eab&units=metric`
         );
         setWeather(response.data);
-        
 
         //forecasweather Api
         const result = await axios.get(
           `https://api.openweathermap.org/data/2.5/forecast?q=${currLocation?.data.city}&appid=2f43c83c40b4e2ddc001d7b04ec46eab&units=metric`
           );
           setForecastWeather(result.data);
-     
 
       } catch (error) {
         console.error("Error fetching data from api", error);
@@ -53,7 +50,6 @@ function App() {
               );
               setForecastWeather(result.data);
             
-
           } catch (error) {
             console.error("Error fetching data from api", error);
             setLoading(true);
@@ -64,8 +60,6 @@ function App() {
     useEffect(() => {
       getLocation();
     }, []);
-
-   
 
 
 return (
