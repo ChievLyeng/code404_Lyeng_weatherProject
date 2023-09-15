@@ -1,10 +1,7 @@
 import clearsky from '../img/clearsky.svg';
-import brokenclouds from '../img/brokenclouds.svg';
 import fewclouds from '../img/fewclouds.svg';
 import mist from '../img/mist.svg';
 import rain from '../img/rain.svg';
-import scatteredclouds from '../img/scatteredclouds.svg';
-import showerain from '../img/showerrain.svg';
 import snow from '../img/snow.svg';
 import thunderstrom from '../img/thunderstorm.svg';
 
