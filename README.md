@@ -73,6 +73,10 @@ This app has two components <br>
 * Insalled axios for fetching data from api.
 * Installed npm module.
 
+# Backlog
+* This weather app do not have responsive only on the desktop
+* This app is using geolocation api to fetch the current location and the api only get 1500 call perday.If the api is not working app can only display the weather info of Phnom Penh city. So it not yet reliable.
+
 # Other
 * Weather Icon : Use the icon from Meteo Icon website that I got share by tourleng from AnB prime team. Bunthai,kimhouy and rozeth from my team also use these icons too.
 * Fetching Api method I learned from the react lesson that recommended on the udemy.
