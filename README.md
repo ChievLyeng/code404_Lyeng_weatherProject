@@ -19,15 +19,15 @@ This app is create for showing the current weather and forecast weather of the c
 
 
 # Convention Guide
-[Link to Convention Guide]()
+[Link to Convention Guide](https://www.notion.so/WeatherApi-Convention-Guide-5db6fbfd4dcc4d28b457b5f5398d4cb7)
 
 
 # Figma Design 
-[Link to UI Design]()
+[Link to UI Design](https://www.figma.com/file/XL6vUYizTu2W3nUbv0qejz/Weather-App?type=design&node-id=0-1&mode=design&t=XCsmULcKuQuzm5CX-0)
 
 
 # App Flow
-[Link to Weather App Flow]()
+[Link to Weather App Flow](https://app.diagrams.net/#G1N0Rg0wTM8OUvV3gcqLFCUq7mz_i6T7ml)
 
 # Git Flow Method
 
@@ -77,4 +77,3 @@ This app has two components <br>
 * Weather Icon : Use the icon from Meteo Icon website that I got share by tourleng from AnB prime team. Bunthai,kimhouy and rozeth from my team also use these icons too.
 * Fetching Api method I learned from the react lesson that recommended on the udemy.
 * Using api to get the current geolocation I know it form the researched on the internet. 
-* 

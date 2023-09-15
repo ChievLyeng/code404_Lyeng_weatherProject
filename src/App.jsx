@@ -1,5 +1,6 @@
 import { useEffect,useState } from 'react';
 import axios from 'axios';
+import loadingicon from './img/loadingicon.gif'
 import './App.css'
 import { WeatherFetching } from './components/WeatherFetching';
 
