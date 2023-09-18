@@ -51,6 +51,7 @@ This app is create for showing the current weather and forecast weather of the c
 
 ### 5. Bugfix Branches 
 * If any bug appear when demo the app after release 
+  * bugfix/release/1.0
 
 ### 6. Hoxfix Branches
 * used to quickly patch production releases. Hotfix branches are a lot like release branches and feature branches except they're based on main instead of develop.
@@ -66,15 +67,15 @@ This app has two components <br>
 
 # Fetching Api Flow
 * The current geolocation is fetch by ipdata api which can get the free 1500 call per day.
-* The current weather and forecast weather data is fetch by open weather api by city that recieve the city from the current geolocation data from the above api.
-* It is abit risky to get the geolocation from the api the app will be collap if the ipdata api is not working but I also set prevention on this case. If the geolocation api is not working it will show the weather data of Phnom Penh city.
+* The current weather and forecast weather data is fetch by open weather api by city name that recieve the city from the current geolocation data from the above api.
+* It is abit risky to get geolocation from the api the app will be collap if the ipdata api is not working but I also set prevention on this case. If the geolocation api is not working it will show the weather data of Phnom Penh city.
 
 # Module
 * Insalled axios for fetching data from api.
 * Installed npm module.
 
 # Backlog
-* This weather app do not have responsive only on the desktop
+* The css styling is not yet reliable there are some mistakes.
 * This app is using geolocation api to fetch the current location and the api only get 1500 call perday.If the api is not working app can only display the weather info of Phnom Penh city. So it not yet reliable.
 
 # Other

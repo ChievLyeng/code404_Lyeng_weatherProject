@@ -225,7 +225,7 @@ body{
     font-size: 24px;
   }
 
-  .temperature-info-container{
+  .temperature-info-container{ 
     width: 100%;
     gap: 30px;
   }
