@@ -4,7 +4,7 @@ import { WeatherShow } from './WeatherShow';
 
 export const WeatherFetching = ({weather,ForecastWeather}) => {
     //getCurrent day (declare weekday and today as global for accesing it and make use as prorps)
-    const weekday = ["Sun","Mon","Tue","Wedn","Thu","Fri","Sat"];
+    const weekday = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
     const today = new Date();
     
     const getDate = (weekday,today) => {
@@ -28,8 +28,6 @@ export const WeatherFetching = ({weather,ForecastWeather}) => {
       
 
     return (
-        
-            <div>
                 <WeatherShow
                     weather={weather}
                     ForecastWeather={ForecastWeather}
@@ -39,7 +37,5 @@ export const WeatherFetching = ({weather,ForecastWeather}) => {
                     day4={day4}
                     day5={day5}
                 />
-            </div>
-        
     );
 }

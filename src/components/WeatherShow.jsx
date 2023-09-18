@@ -37,8 +37,8 @@ export const WeatherShow = ({ForecastWeather,weather,day2,day3,day4,day5,date
       
       return (
         <>
-        <div className='contain-all'>
             <div className="container">
+                
                 {/* weather info */}
                 <div className='weather-info-container'>
                 <p className='weather-date'> {date} </p>
@@ -60,7 +60,7 @@ export const WeatherShow = ({ForecastWeather,weather,day2,day3,day4,day5,date
             
                 {/* weather description */}
                 <div className='temperature-info-container'>
-                    <div className='abc'>
+                    <div className='current-condition'>
                     <div><p> {condition} </p></div>
                     </div>
                     
@@ -85,33 +85,32 @@ export const WeatherShow = ({ForecastWeather,weather,day2,day3,day4,day5,date
 
                 <div className='weather-week-container'>
             <div className='nextday-weather'>
-                    <p className='nextday-title'> {day2} </p>
+                    <div className='nextday-title'><p > {day2} </p></div>
                     <img className='nextday-weather-icon' src={iconMap[conditionday2]} />  
                     <p className='nextday-title'>  {weatherday2} &deg;C  </p>
 
             </div>
 
             <div className='nextday-weather'>
-                    <p className='nextday-title'> {day3} </p>
+            <div className='nextday-title'><p > {day3} </p></div>
                     <img className='nextday-weather-icon' src={iconMap[conditionday3]} />
                     <p className='nextday-title'>{weatherday3} &deg;C</p>
             </div>
 
             <div className='nextday-weather'>
-                <p className='nextday-title'> {day4} </p>
+            <div className='nextday-title'><p > {day4} </p></div>
                 <img className='nextday-weather-icon' src={iconMap[conditionday4]} />
                 <p className='nextday-title'>{weatherday4} &deg;C</p>
             </div>
 
             <div className='nextday-weather'>
-                <p className='nextday-title'> {day5} </p>
+            <div className='nextday-title'><p > {day5} </p></div>
                 <img className='nextday-weather-icon' src={iconMap[conditionday5]} />
                 <p className='nextday-title'>{weatherday5} &deg;C</p>
             </div>
 
             </div>
             </div>
-        </div>
         </>
       )
 

@@ -16,7 +16,7 @@ function App() {
       try {
 
         //currentLocation Api
-        const url = `https://api.ipdata.co?api-key=831d679737f839691532d3ebcc79aa340fc410f92b1cc56ca1d7573a`;
+        const url = `https://api.ipdata.co?api-key=31d679737f839691532d3ebcc79aa340fc410f92b1cc56ca1d7573a`;
         const currLocation = await axios.get(url);
         setCurrentLocation(currLocation.data.city); 
         
@@ -40,13 +40,13 @@ function App() {
           try {
             //currentweather Api
             const response = await axios.get(
-              `https://api.openweathermap.org/data/2.5/weather?q=Phnom Penh&appid=2f43c83c40b4e2ddc001d7b04ec46eab&units=metric`
+              `https://api.openweathermap.org/data/2.5/weather?q=Phnom Pnh&appid=2f43c83c40b4e2ddc001d7b04ec46eab&units=metric`
             );
             setWeather(response.data);
 
             //forecasweather Api
             const result = await axios.get(
-              `https://api.openweathermap.org/data/2.5/forecast?q=Phnom Penh&appid=2f43c83c40b4e2ddc001d7b04ec46eab&units=metric`
+              `https://api.openweathermap.org/data/2.5/forecast?q=Phnom Pnh&appid=2f43c83c40b4e2ddc001d7b04ec46eab&units=metric`
               );
               setForecastWeather(result.data);
             
@@ -64,7 +64,9 @@ function App() {
 
 return (
   <>
-    <div>
+  <div className='App-title'>Weather App</div>
+    <div className='container-all'>
+    
         {loading ? (
         <div >
           <p className='loading'>Error Fetching Data From Api...</p>
