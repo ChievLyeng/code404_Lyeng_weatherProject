@@ -38,6 +38,7 @@ export const WeatherShow = ({ForecastWeather,weather,day2,day3,day4,day5,date
       return (
         <>
             <div className="container">
+                
                 {/* weather info */}
                 <div className='weather-info-container'>
                 <p className='weather-date'> {date} </p>

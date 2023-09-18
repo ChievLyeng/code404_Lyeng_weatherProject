@@ -64,7 +64,9 @@ function App() {
 
 return (
   <>
+  <div className='App-title'>Weather App</div>
     <div className='container-all'>
+    
         {loading ? (
         <div >
           <p className='loading'>Error Fetching Data From Api...</p>

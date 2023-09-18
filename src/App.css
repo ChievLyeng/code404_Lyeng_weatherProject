@@ -20,6 +20,8 @@ body{
 .App-title{
   text-align: center;
   font-size: 64px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .container-all{
@@ -225,7 +227,7 @@ body{
 
   .temperature-info-container{
     width: 100%;
-    gap: 60px;
+    gap: 30px;
   }
   
   .current-condition{
@@ -267,7 +269,7 @@ body{
   }
   
   .temperature-info-container{
-    gap: 20px;
+    gap: 10px;
   }
 
   .temperature-container{
@@ -275,7 +277,7 @@ body{
   }
   
   .current-condition{
-    padding-left: 15px;
+    padding-left: 10px;
     font-size: 16px;
   }
   
