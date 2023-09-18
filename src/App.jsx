@@ -40,13 +40,13 @@ function App() {
           try {
             //currentweather Api
             const response = await axios.get(
-              `https://api.openweathermap.org/data/2.5/weather?q=Phnom Penh&appid=2f43c83c40b4e2ddc001d7b04ec46eab&units=metric`
+              `https://api.openweathermap.org/data/2.5/weather?q=Phnom Pnh&appid=2f43c83c40b4e2ddc001d7b04ec46eab&units=metric`
             );
             setWeather(response.data);
 
             //forecasweather Api
             const result = await axios.get(
-              `https://api.openweathermap.org/data/2.5/forecast?q=Phnom Penh&appid=2f43c83c40b4e2ddc001d7b04ec46eab&units=metric`
+              `https://api.openweathermap.org/data/2.5/forecast?q=Phnom Pnh&appid=2f43c83c40b4e2ddc001d7b04ec46eab&units=metric`
               );
               setForecastWeather(result.data);
             
