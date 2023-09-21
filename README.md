@@ -66,7 +66,7 @@ This app has two components <br>
 * In App.jsx is use to fetch data from api and pass the props to the WeatherFetching.jsx.
 
 # Fetching Api Flow
-* The current geolocation is fetch by ipdata api which can get the free 1500 call per day.
+* The current geolocation is fetch by ipdata api which can get the 1500 free call per day.
 * The current weather and forecast weather data is fetch by open weather api by city name that recieve the city from the current geolocation data from the above api.
 * It is abit risky to get geolocation from the api the app will be collap if the ipdata api is not working but I also set prevention on this case. If the geolocation api is not working it will show the weather data of Phnom Penh city.
 
@@ -75,17 +75,19 @@ This app has two components <br>
 * Installed npm module.
 
 # Backlog
-* The css styling is not yet reliable there are some mistakes.
-* This app is using geolocation api to fetch the current location and the api only get 1500 call perday.If the api is not working app can only display the weather info of Phnom Penh city. So it not yet reliable.
+* This app is using geolocation api to fetch the current location and the api only get 1500 call perday.If the api 
+  is not working app can only display the weather info of Phnom Penh city. So it not yet reliable.
 
 # Reflection
- During this weather project I 
-
-  ## What I've learned 
+ * During this weather project I do not follow the youtue tutorial anymore. I only learned to do the project with 
+   course that recommended by school and doing research on the internet.
+   
+# What I've learned 
   * I have learned how to fetch api in React .
   * I am be able to fetch data from open weather api.
-  * I also can fetch the current location from ipdata api and pass it to the open weather api for displaying the    
-    current location weather.
+  * I also learned to fetch the current location from geolocation api and pass it to the open weather api for 
+    displaying the current location weather.
+  * I learned to handle when error fetching data from api by using try and catch.
     
 # Other
 * Weather Icon : Use the icon from Meteo Icon website that I got share by Tourleng from AnB prime team. 
