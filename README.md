@@ -15,7 +15,7 @@ This app is create for showing the current weather and forecast weather of the c
 
 # App Feature
 * Display current weather information : this feature can display the weather informaiton and current date of current location to the users.
-* Display forecast weather information : this feature can display the next four days of weather forecast data .
+* Display forecast weather information : this feature can display the next four days of weather forecast data.
 
 
 # Convention Guide
@@ -30,34 +30,7 @@ This app is create for showing the current weather and forecast weather of the c
 [Link to Weather App Flow](https://app.diagrams.net/#G1N0Rg0wTM8OUvV3gcqLFCUq7mz_i6T7ml)
 
 # Git Flow Method
-
-### 1. Main Branch
-  * store the stable version of app
-### 2. Develop Branch
-  * This branch is use as the app developing integreation
-  * Any feature that created are merged into develop branch
-  * Represents the latest state of the application with features being developed.
-
-### 3. Feature Branches 
-  * Feature branch responsible for the app features 
-  * Feature branches
-    
-
-### 4. Release Branches
- * For release a new version of my todo app 
-    * Create a release branch from the develop
-    * Release branched :
-      * release/1.0 
-
-### 5. Bugfix Branches 
-* If any bug appear when demo the app after release 
-  * bugfix/release/1.0
-
-### 6. Hoxfix Branches
-* used to quickly patch production releases. Hotfix branches are a lot like release branches and feature branches except they're based on main instead of develop.
-
-
-[Git Flow Reference ](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=What%20is%20Gitflow%3F,lived%20branches%20and%20larger%20commits)
+[Link to git flow method](https://docs.google.com/document/d/1_74r6dCDrwL79QXPLyNDpatHkl4NZN-InLKdgvPzK_M/edit?usp=sharing)
 
 # App components Flow
 This app has two components <br>
@@ -66,7 +39,7 @@ This app has two components <br>
 * In App.jsx is use to fetch data from api and pass the props to the WeatherFetching.jsx.
 
 # Fetching Api Flow
-* The current geolocation is fetch by ipdata api which can get the free 1500 call per day.
+* The current geolocation is fetch by ipdata api which can get the 1500 free call per day.
 * The current weather and forecast weather data is fetch by open weather api by city name that recieve the city from the current geolocation data from the above api.
 * It is abit risky to get geolocation from the api the app will be collap if the ipdata api is not working but I also set prevention on this case. If the geolocation api is not working it will show the weather data of Phnom Penh city.
 
@@ -75,10 +48,22 @@ This app has two components <br>
 * Installed npm module.
 
 # Backlog
-* The css styling is not yet reliable there are some mistakes.
-* This app is using geolocation api to fetch the current location and the api only get 1500 call perday.If the api is not working app can only display the weather info of Phnom Penh city. So it not yet reliable.
+* This app is using geolocation api to fetch the current location and the api only get 1500 call perday.If the api 
+  is not working app can only display the weather info of Phnom Penh city. So it not yet reliable.
 
+# Reflection
+ * During this weather project I do not follow the youtue tutorial anymore. I only learned to do the project with 
+   course that recommended by school and doing research on the internet.
+   
+# What I've learned 
+  * I have learned how to fetch api in React .
+  * I am be able to fetch data from open weather api.
+  * I also learned to fetch the current location from geolocation api and pass it to the open weather api for 
+    displaying the current location weather.
+  * I learned to handle when error fetching data from api by using try and catch.
+    
 # Other
-* Weather Icon : Use the icon from Meteo Icon website that I got share by tourleng from AnB prime team. Bunthai,kimhouy and rozeth from my team also use these icons too.
+* Weather Icon : Use the icon from Meteo Icon website that I got share by Tourleng from AnB prime team. 
+  Bunthai,Kimhouy and Rozeth from my team also use these icons too.
 * Fetching Api method I learned from the react lesson that recommended on the udemy.
-* Using api to get the current geolocation I know it form the researched on the internet. 
+* Using api to get the current geolocation I know it from doing researched on the internet. 
