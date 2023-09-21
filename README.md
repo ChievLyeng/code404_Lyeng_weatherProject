@@ -30,34 +30,7 @@ This app is create for showing the current weather and forecast weather of the c
 [Link to Weather App Flow](https://app.diagrams.net/#G1N0Rg0wTM8OUvV3gcqLFCUq7mz_i6T7ml)
 
 # Git Flow Method
-
-### 1. Main Branch
-  * store the stable version of app
-### 2. Develop Branch
-  * This branch is use as the app developing integreation
-  * Any feature that created are merged into develop branch
-  * Represents the latest state of the application with features being developed.
-
-### 3. Feature Branches 
-  * Feature branch responsible for the app features 
-  * Feature branches
-    
-
-### 4. Release Branches
- * For release a new version of my todo app 
-    * Create a release branch from the develop
-    * Release branched :
-      * release/1.0 
-
-### 5. Bugfix Branches 
-* If any bug appear when demo the app after release 
-  * bugfix/release/1.0
-
-### 6. Hoxfix Branches
-* used to quickly patch production releases. Hotfix branches are a lot like release branches and feature branches except they're based on main instead of develop.
-  * hotfix/1.1 
-
-[Git Flow Reference ](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=What%20is%20Gitflow%3F,lived%20branches%20and%20larger%20commits)
+[Link to git flow method](https://docs.google.com/document/d/1_74r6dCDrwL79QXPLyNDpatHkl4NZN-InLKdgvPzK_M/edit?usp=sharing)
 
 # App components Flow
 This app has two components <br>
