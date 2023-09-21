@@ -15,7 +15,7 @@ This app is create for showing the current weather and forecast weather of the c
 
 # App Feature
 * Display current weather information : this feature can display the weather informaiton and current date of current location to the users.
-* Display forecast weather information : this feature can display the next four days of weather forecast data .
+* Display forecast weather information : this feature can display the next four days of weather forecast data.
 
 
 # Convention Guide
@@ -55,7 +55,7 @@ This app is create for showing the current weather and forecast weather of the c
 
 ### 6. Hoxfix Branches
 * used to quickly patch production releases. Hotfix branches are a lot like release branches and feature branches except they're based on main instead of develop.
-
+  * hotfix/1.1 
 
 [Git Flow Reference ](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=What%20is%20Gitflow%3F,lived%20branches%20and%20larger%20commits)
 
@@ -78,7 +78,17 @@ This app has two components <br>
 * The css styling is not yet reliable there are some mistakes.
 * This app is using geolocation api to fetch the current location and the api only get 1500 call perday.If the api is not working app can only display the weather info of Phnom Penh city. So it not yet reliable.
 
+# Reflection
+ During this weather project I 
+
+  ## What I've learned 
+  * I have learned how to fetch api in React .
+  * I am be able to fetch data from open weather api.
+  * I also can fetch the current location from ipdata api and pass it to the open weather api for displaying the    
+    current location weather.
+    
 # Other
-* Weather Icon : Use the icon from Meteo Icon website that I got share by tourleng from AnB prime team. Bunthai,kimhouy and rozeth from my team also use these icons too.
+* Weather Icon : Use the icon from Meteo Icon website that I got share by Tourleng from AnB prime team. 
+  Bunthai,Kimhouy and Rozeth from my team also use these icons too.
 * Fetching Api method I learned from the react lesson that recommended on the udemy.
-* Using api to get the current geolocation I know it form the researched on the internet. 
+* Using api to get the current geolocation I know it from doing researched on the internet. 
