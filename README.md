@@ -1,7 +1,7 @@
 # Weather App
 This app is create for showing the current weather and forecast weather of the current location of users. This weather app provide recent date,current city of users,temperature,weather condition,wind speed,humidity and the next four days weather forecast information.
 
-# Demo App : [Click Here](https://weather-app-host.vercel.app/](https://vercel.com/lyeng22/code404-lyeng-weather-project)
+# Demo App : [Click Here](https://vercel.com/lyeng22/code404-lyeng-weather-project)
 
 
 # Tech stack
